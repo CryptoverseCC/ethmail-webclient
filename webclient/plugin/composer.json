@@ -1,0 +1,37 @@
+{
+  "name": "cryptoverse/ethmail_webclient",
+  "type": "roundcube-plugin",
+  "description": "Roundcube + Cryptoverse Login = ETHMail Webclient",
+  "keywords": [
+    "OpenID Connect",
+    "Single Sign On",
+    "Login",
+    "Authentication"
+  ],
+  "homepage": "https://github.com/CryptoVerseCC/ethmail-webclient",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Grzegorz Kapkowski",
+      "email": "grzegorz.kapkowski@gmail.com",
+      "homepage": "https://github.com/gkapkowski",
+      "role": "Developer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://plugins.roundcube.net"
+    }
+  ],
+  "require": {
+    "php": ">=7.3.0",
+    "roundcube/plugin-installer": "==0.3.0"
+  },
+  "support": {
+    "email": "xunkulapchvatal@ethmail.cc",
+    "issues": "https://github.com/CryptoVerseCC/ethmail-webclient/issues",
+    "source": "https://github.com/CryptoVerseCC/ethmail-webclient"
+  }
+}

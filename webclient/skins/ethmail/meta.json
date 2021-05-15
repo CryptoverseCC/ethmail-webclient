@@ -1,0 +1,7 @@
+{
+  "name": "ethmail",
+  "extends": "elastic",
+  "author": "ETHMail",
+  "license": "MIT",
+  "license-url": "https://opensource.org/licenses/MIT"
+}

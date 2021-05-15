@@ -1,0 +1,6 @@
+version: "3.8"
+
+services:
+  webclient:
+    build: webclient
+    image: ${REGISTRY}/${PROJECT}/webclient:${TAG}
