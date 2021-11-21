@@ -4,12 +4,6 @@ RUN apt-get update && apt-get install -y \
     patch \
     && rm -rf /var/lib/apt/lists/*
 
-ADD oauth.diff .
-
-RUN patch /usr/src/roundcubemail/program/actions/login/oauth.php oauth.diff
-
-RUN rm oauth.diff
-
 RUN set -ex; \
     apt-get update; \
     apt-get install -y --no-install-recommends \
